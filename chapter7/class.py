@@ -3,10 +3,6 @@ class Car():
     color = 'red'
     wheels = 4
 
-
-    def welcome(self):
-        print('Welcome to our new car which is ',self.name)
-
     def car_detail(self):
         result = 'The name of the car is '+self.name+' and the color is '+self.color+' with '+self.wheels
         return result
