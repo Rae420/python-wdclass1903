@@ -11,6 +11,9 @@ class Student():
     
     def common_stuff(self):
         print('Our company name is {} and address is  {}'.format(self.company, self.address))
+    
+    def __str__(self):
+            
         
 student1 = Student('Vokna', 33, 'Dark')        
 student1.common_stuff()
